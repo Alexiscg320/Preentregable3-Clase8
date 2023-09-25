@@ -1,0 +1,531 @@
+/* #6528F7
+#A076F9
+#D7BBF5
+#566EE5 azulito
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Martian Mono', monospace;
+/* fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Martian+Mono:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* index-header @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+body{
+    font-family: 'Martian Mono', monospace;
+    background-color: aliceblue;
+    
+}
+header nav{
+    background-color: antiquewhite;
+}
+.span-color{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #d66a11;
+    font-size: 2rem;
+}
+
+/* titulo */
+.titulo-menu{
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+}
+
+
+
+/* logo y usuario del header */
+.logo{
+    width: 4rem;
+    text-align: center;
+    background: none;
+}
+.menu{
+    background-color:antiquewhite
+}
+.sesion{
+    background-color: #440bc0ec;  
+}
+.inicio{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.subrayado {
+    text-decoration: none; /* Inicialmente, no hay subrayado */
+    transition: border-bottom 0.3s ease; /* Agrega una transición suave */
+  }
+  
+.subrayado:hover {
+    text-decoration: underline; /* Subrayado cuando el mouse está sobre el texto */
+    border-bottom: 2px solid #000000; /* Línea debajo del texto al pasar el mouse */
+  }
+
+
+/* index-header @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* index-main */
+.center-carousel {
+    display: flex;
+    justify-content: center;
+
+
+}
+.altura{
+    width: 600px;
+    height: 400px;
+}
+.lema{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.fondo-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.fondo-index{
+    height: 400px;
+    width: 90%;
+    background-image: url(../multimedia/1366_2000.jpg);
+    background-position: center;
+}
+.tecnowifi{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #d66a11;
+}
+.subtitulo{
+    text-decoration-line: underline;
+    font-size: 100px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.subtitulo{
+    background-image: url(../multimedia/fondo\ herramientas.jpg);
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.buscador{
+    text-align: left;
+}
+/* imagenes de los productos */
+.producto{
+    width: 25%;
+}
+.productos-grid img{
+    width: 300px;
+
+}
+.productos-grid{
+    display: grid;
+    grid-template-columns:40% 50% ; 
+    grid-template-rows: 100px 100px 200px;
+    grid-template-areas: 
+    "img1 text1 "
+    "img1 text1 "
+    "text2 img2";
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 100px;
+    padding: 5% 0%;
+    background-color: antiquewhite;
+}
+
+.producto1{    grid-area: img1;}
+.producto2{    grid-area: img2;}
+.producto3{    grid-area: text2;}
+.producto4{    grid-area: text1;}
+.producto4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+
+}
+.producto1{
+    border-bottom: 2px solid #000;
+    padding: 10px;
+}
+.producto3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+
+}
+
+ 
+
+
+/* index main @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*index footer */
+footer{
+    text-align: center;
+    padding: 1em 0;
+    background-color: antiquewhite;
+   
+
+}
+/* iconos */
+.face{
+    margin-top: 10px;
+    width: 2rem;    
+}
+.whats{
+    width: 4rem;
+    margin-top: 10px;
+}
+.disc{
+    width: 2rem;
+    margin-top: 10px;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.contactanos-flex{
+    display: flex;
+    flex-direction: column;
+}
+/* index footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* Perfil main */
+.texto-caja{
+    color: #e0e0e0;
+}
+.caja-usuario{
+    border: 3px solid #000000;
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-image: url(../multimedia/fondo-oscuro.jpg); /* URL de la imagen de fondo */
+    backdrop-filter: blur(10px);
+}
+.form-control{
+    margin-bottom: 20px;
+}
+.boton-color{
+    color: #e0e0e0;
+    background-color: #d66a11;
+}
+.boton-color:hover{
+    background-color: #23306e;
+    transition: 0.5s;
+}
+/* PERFIL MAIN @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* soporte main */
+   
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+}
+
+.container-form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #d66a11;
+    border-radius: 3px ;
+    margin-bottom: 20px;
+    outline: 0px;
+}
+.container-form .boton-enviar{
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    outline: 0px;
+    background: #d66a11;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .boton-enviar:hover{
+    background: #23306e;
+}
+.container-form .boton-enviar{
+    margin-bottom: 10px;
+}
+.imagen-info1{
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.imagen-info1 div img{
+    width: 100px;
+    align-items: center;
+}
+h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.fondo-soporte{
+    background-image: url(../multimedia/soporte-tecnico-a-distancia-.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: #e0e0e0;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+/* soporte main @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* información main */
+.tituloInformacion{
+    text-decoration: underline;
+}
+.grid-box img{
+    width:600px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 400px 400px  ;
+    grid-template-areas: 
+    "text1 text1 img2 img2"
+    "img1 img1 text2 text2";
+    justify-content: space-between;
+
+}
+.grid-1{ grid-area: text1;}
+.grid-2{ grid-area: img1;}
+.grid-3{ grid-area: text2;}
+.grid-4{ grid-area: img2;}
+
+.grid-2{
+    border-right: 2px solid #000; /* Ancho y color de la línea */
+    padding-right: 10px; /* Espacio entre el texto y la línea */
+    margin-left: 10px;
+}
+.grid-1{
+    border-right: 2px solid #000; /* Ancho y color de la línea */
+    padding-right: 10px; /* Espacio entre el texto y la línea */
+    margin-left: 10px;
+}
+
+
+
+/* información main @@@@@@@@@@@@@@@@ */
+/* mas_vendidos main */
+.fondo-ventas{
+  background-image: url(../multimedia/suscripcion.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 500px;
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  color: #e0e0e0;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:80%;
+    height: 400px;
+    margin-bottom: 250px;
+}
+.ofertas{
+    padding: 2%;
+    margin: 10px 5px;
+    
+
+    flex-direction: row;
+}
+.centro{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   background-size: 500px;
+}
+.oferta1{
+    border: 2px;
+
+}
+.imagen-info1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 900px;
+    padding: 0px 0px;
+    margin:auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.suscripcion{
+    width: 30%;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 60px;
+    text-align: center;
+}
+.suscripcion h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.suscripcion img{
+    width: 64px;
+    margin-bottom:35px;
+}
+.suscripcion p{
+    display: block;
+    margin-bottom: 35px;
+}
+.suscripcion:hover{
+    background: #23306e;
+    color: #d66a11;
+    transition: 0.5s all;
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.boton{
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    background:#d66a11;
+    text-decoration: none;
+    color: #e0e0e0;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+/* mas_vendidos main */
+
+@media screen and (max-width: 768px) {
+    .productos-grid{
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 300px repeat(300px*5)  ;
+        grid-template-areas: 
+        "text2"
+        "text2"
+        "img1"
+        "text1"
+        "text1"
+        "img2"
+        
+    }
+    .producto1{    grid-area: img1;}
+    .producto2{    grid-area: img2;}
+    .producto3{    grid-area: text2;}
+    .producto4{    grid-area: text1;}
+    .producto1{
+        border: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .grid-box img{
+        width:500px;
+    }
+    .grid-box{
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 300px repeat(300px*4)  ;
+        grid-template-areas: 
+        "text1"
+        "img1"
+        "img1"
+        "text2"
+        "text2"
+        "img2"
+        "img2" 
+;
+    
+    }
+    .grid-1{ grid-area: text1;}
+    .grid-2{ grid-area: img1;}
+    .grid-3{ grid-area: text2;}
+    .grid-4{ grid-area: img2;}
+    .grid-1{
+        border-right: none;
+        padding-bottom: 0%;
+    }
+    .grid-2{
+        border-right:none;
+    }
+    
+    
+  }
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .suscripcion{
+        width: 45%;
+        max-width: none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+@media screen and (max-width: 700px){
+    .suscripcion{
+        width: 45%;
+        padding: 30px;
+    }
+    .suscripcion h2{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 550px){
+    .suscripcion{
+        width: 85%;
+        padding: 20px;
+    }
+}
