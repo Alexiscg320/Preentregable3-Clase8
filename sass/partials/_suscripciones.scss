@@ -1,0 +1,77 @@
+section{
+    .fondo-ventas{
+        background-image: url(../multimedia/suscripcion.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 500px;
+        margin-top: 40px;
+        text-align: center;
+        font-family: $fontgrueso;
+        font-size: 2.5rem;
+        color: $blanco;
+        text-shadow: 2px 2px 4px $negro;
+    }
+}
+.centro{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: 500px;
+    .contenedor{
+    width: 90%;
+    max-width: 900px;
+    padding: 0px 0px;
+    margin:auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    }   
+}
+
+.suscripcion{
+    width: 30%;
+    margin: auto;
+    border: 1px solid $negro;
+    border-radius: 10px;
+    padding: 60px;
+    text-align: center;
+    .suscripcion:hover{
+        background:$azulito;
+        color: $naranja;
+        transition: 0.5s all;
+        transform:scale(1.1);
+        cursor:pointer;
+    }
+    
+    h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+    } 
+    img{
+        width: 64px;
+        margin-bottom:35px;
+    }
+    p{
+        display: block;
+        margin-bottom: 35px;
+    }
+    .boton{
+        display: inline-block;
+        width: 150px;
+        padding: 12px;
+        background:$naranja;
+        text-decoration: none;
+        color: $blanco;
+        border-radius: 100px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        margin: auto;
+    }
+}
+

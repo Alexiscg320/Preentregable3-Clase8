@@ -7,6 +7,7 @@ font-family: 'EB Garamond', serif;
 font-family: 'Martian Mono', monospace;
 /* fuentes */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Martian+Mono:wght@300&display=swap');
 
 *{
@@ -28,15 +29,6 @@ header nav{
     color: #d66a11;
     font-size: 2rem;
 }
-
-/* titulo */
-.titulo-menu{
-    font-family: 'EB Garamond', serif;
-    text-decoration: none;
-}
-
-
-
 /* logo y usuario del header */
 .logo{
     width: 4rem;
@@ -51,16 +43,16 @@ header nav{
 }
 .inicio{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 .subrayado {
-    text-decoration: none; /* Inicialmente, no hay subrayado */
-    transition: border-bottom 0.3s ease; /* Agrega una transición suave */
+    text-decoration: none; 
+    transition: border-bottom 0.3s ease; 
   }
   
 .subrayado:hover {
-    text-decoration: underline; /* Subrayado cuando el mouse está sobre el texto */
-    border-bottom: 2px solid #000000; /* Línea debajo del texto al pasar el mouse */
+    text-decoration: underline;
+    border-bottom: 2px solid #000000; 
   }
 
 
@@ -123,13 +115,9 @@ h2{
     text-align: center;
 }
 
-.buscador{
-    text-align: left;
-}
+
 /* imagenes de los productos */
-.producto{
-    width: 25%;
-}
+
 .productos-grid img{
     width: 300px;
 
@@ -309,9 +297,7 @@ h4{
 .tituloInformacion{
     text-decoration: underline;
 }
-.grid-box img{
-    width:600px;
-}
+
 .grid-box{
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
@@ -357,16 +343,7 @@ h4{
   text-shadow: 2px 2px 4px #000000;
 }
 
-.cajas{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width:80%;
-    height: 400px;
-    margin-bottom: 250px;
-}
+
 .ofertas{
     padding: 2%;
     margin: 10px 5px;
@@ -381,14 +358,7 @@ h4{
     flex-wrap: wrap;
    background-size: 500px;
 }
-.oferta1{
-    border: 2px;
 
-}
-.imagen-info1{
-    display: flex;
-    justify-content: space-between;
-}
 
 .contenedor{
     width: 90%;
@@ -446,7 +416,7 @@ h4{
     .productos-grid{
         display: grid;
         grid-template-columns: 90%;
-        grid-template-rows: 300px repeat(300px*5)  ;
+        grid-template-rows: 300px repeat(5, 150px)  ;
         grid-template-areas: 
         "text2"
         "text2"
@@ -474,7 +444,7 @@ h4{
     .grid-box{
         display: grid;
         grid-template-columns: 90%;
-        grid-template-rows: 300px repeat(300px*4)  ;
+        grid-template-rows: 300px repeat(4,300)  ;
         grid-template-areas: 
         "text1"
         "img1"
@@ -496,9 +466,7 @@ h4{
     }
     .grid-2{
         border-right:none;
-    }
-    
-    
+    }  
   }
 
 

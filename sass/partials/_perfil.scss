@@ -1,0 +1,23 @@
+.caja-usuario{
+    border: 3px solid $negro;
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-image: url(../multimedia/fondo-oscuro.jpg); /* URL de la imagen de fondo */
+    backdrop-filter: blur(10px);
+    .label1{
+        .texto-caja{
+            color: $blanco;
+        }
+        .form-control{
+            margin-bottom: 20px;
+        }
+    }
+    .boton-color{
+        color: $blanco;
+        background-color: $naranja;
+    }
+    .boton-color:hover{
+        background-color: $azulito;
+        transition: 0.5s;
+    }
+}

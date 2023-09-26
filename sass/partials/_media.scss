@@ -1,0 +1,88 @@
+
+@media screen and (max-width: 768px) {
+    .productos-grid{
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 300px repeat(5, 150px)  ;
+        grid-template-areas: 
+        "text2"
+        "text2"
+        "img1"
+        "text1"
+        "text1"
+        "img2"
+        
+    }
+    .producto1{    grid-area: img1;}
+    .producto2{    grid-area: img2;}
+    .producto3{    grid-area: text2;}
+    .producto4{    grid-area: text1;}
+    .producto1{
+        border: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .grid-box img{
+        width:500px;
+    }
+    .grid-box{
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 300px repeat(300px*4)  ;
+        grid-template-areas: 
+        "text1"
+        "img1"
+        "img1"
+        "text2"
+        "text2"
+        "img2"
+        "img2" 
+;
+    
+    }
+    .grid-1{ grid-area: text1;}
+    .grid-2{ grid-area: img1;}
+    .grid-3{ grid-area: text2;}
+    .grid-4{ grid-area: img2;}
+    .grid-1{
+        border-right: none;
+        padding-bottom: 0%;
+    }
+    .grid-2{
+        border-right:none;
+    }
+    
+    
+  }
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .suscripcion{
+        width: 45%;
+        max-width: none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+@media screen and (max-width: 700px){
+    .suscripcion{
+        width: 45%;
+        padding: 30px;
+    }
+    .suscripcion h2{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 550px){
+    .suscripcion{
+        width: 85%;
+        padding: 20px;
+    }
+}

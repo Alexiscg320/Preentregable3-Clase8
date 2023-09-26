@@ -1,0 +1,32 @@
+.tituloInformacion{
+    text-decoration: underline;
+}
+.grid-box img{
+    width:600px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 400px 400px  ;
+    grid-template-areas: 
+    "text1 text1 img2 img2"
+    "img1 img1 text2 text2";
+    justify-content: space-between;
+    .grid-1{ grid-area: text1;}
+    .grid-2{ grid-area: img1;}
+    .grid-3{ grid-area: text2;}
+    .grid-4{ grid-area: img2;}
+
+    .grid-2{
+        border-right: 2px solid $negro; 
+        padding-right: 10px; 
+        margin-left: 10px;
+    }
+    .grid-1{
+        border-right: 2px solid $negro;
+        padding-right: 10px; 
+        margin-left: 10px;
+    }
+
+
+}

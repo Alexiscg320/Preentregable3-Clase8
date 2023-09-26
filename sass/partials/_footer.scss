@@ -1,0 +1,32 @@
+footer{
+    text-align: center;
+    padding: 1em 0;
+    background-color: $salmon;
+    .face{
+        margin-top: 10px;
+        width: 2rem;    
+    }
+    .whats{
+        width: 4rem;
+        margin-top: 10px;
+    }
+    .disc{
+        width: 2rem;
+        margin-top: 10px;
+    }
+    div{
+        .contactanos-flex{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+   
+
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
