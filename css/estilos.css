@@ -332,7 +332,7 @@ section .fondo-ventas {
   padding: 60px;
   text-align: center;
 }
-.suscripcion .suscripcion:hover {
+.suscripcion:hover {
   background: #23306e;
   color: #d66a11;
   transition: 0.5s all;
