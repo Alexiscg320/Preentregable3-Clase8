@@ -1,25 +1,9 @@
 h1{
-    .subtitulo{
-        text-decoration-line: underline;
-        font-size: 100px;
-    }
-    .tecnowifi{
-        font-family: $fontgrueso;
-        color: $naranja;
-    }
-}
-.row{
-    .center-carousel {
-        display: flex;
-        justify-content: center;
-    
-    
-    }
-    .altura{
-        width: 600px;
-        height: 400px;
-    }
-
+    color:$negro;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 100px;
+    font-family: $fontgrueso;
 }
 h2{
     color:$negro;
@@ -28,59 +12,54 @@ h2{
     margin-top: 100px;
     font-family: $fontgrueso;
 }
-.lema-flex{
-    .lema{
-        text-align: center;
-        font-family: $fontgrueso;
-        font-size: 35px;
-        margin-top: 50px;
+.fondo-index{
+    background-image: url(../multimedia/Proyecto-nuevo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    margin-top: 60px;
+    padding: 150px 0px;
+    text-align: center;
+    p{
+        font-family:$fontligero;
+        color:$blanco ;
+        font-size: 4rem;
+        text-shadow: 4px 4px 4px #333;
     }
 }
-.fondo-flex{
+.contenedor {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    .fondo-index{
-        height: 400px;
-        width: 90%;
-        background-image: url(../multimedia/1366_2000.jpg);
-        background-position: center;
+    .parte1,
+    .parte2 {
+    flex: 1;
+    padding: 20px;
     }
 }
-.productos-grid{
-    display: grid;
-    grid-template-columns:40% 50% ; 
-    grid-template-rows: 100px 100px 200px;
-    grid-template-areas: 
-    "img1 text1 "
-    "img1 text1 "
-    "text2 img2";
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 100px;
-    padding: 5% 0%;
-    background-color: $salmon;
-    img{
-        width: 300px;
-    
-    }
-    .producto1{    grid-area: img1;}
-    .producto2{    grid-area: img2;}
-    .producto3{    grid-area: text2;}
-    .producto4{    grid-area: text1;}
-    .producto4{
-        font-family: $fontgrueso;
-        font-size: 2.5rem;
-
-    }
-    .producto1{
-        border-bottom: 2px solid #000;
-        padding: 10px;
-    }
-    .producto3{
-        font-family:$fontgrueso;
-        font-size: 2.5rem;
-
-    }
+.parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
 }
+  
+
+.boton-index{
+    background-color:$azulito ;
+    color: $blanco;
+    border-radius: 5px;
+}
+.tachado {
+    text-decoration: line-through;
+}
+.h-index{
+    color:$negro;
+    text-align: center;
+    font-size: 3rem;
+    font-family: $fontgrueso;
+    margin: 0%;
+}
+  
+  
+  

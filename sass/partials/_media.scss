@@ -1,32 +1,15 @@
-
-@media screen and (max-width: 768px) {
-    .productos-grid{
-        display: grid;
-        grid-template-columns: 90%;
-        grid-template-rows: 300px repeat(5, 150px)  ;
-        grid-template-areas: 
-        "text2"
-        "text2"
-        "img1"
-        "text1"
-        "text1"
-        "img2"
-        
+// media-index  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@media screen and (max-width: 1200px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
     }
-    .producto1{    grid-area: img1;}
-    .producto2{    grid-area: img2;}
-    .producto3{    grid-area: text2;}
-    .producto4{    grid-area: text1;}
-    .producto1{
-        border: none;
-    }
-    
 }
-
-
-@media screen and (max-width: 768px) {
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// media-informacion  @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@media screen and (max-width: 1180px) {
     .grid-box img{
-        width:500px;
+        width:90%;
     }
     .grid-box{
         display: grid;
@@ -39,30 +22,22 @@
         "text2"
         "text2"
         "img2"
-        "img2" 
-;
+        "img2";
+        justify-content: center;
+        justify-items: center;
     
     }
     .grid-1{ grid-area: text1;}
     .grid-2{ grid-area: img1;}
     .grid-3{ grid-area: text2;}
     .grid-4{ grid-area: img2;}
-    .grid-1{
-        border-right: none;
-        padding-bottom: 0%;
-    }
-    .grid-2{
-        border-right:none;
-    }
-    
-    
   }
 
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 
-
-
+// media-suscripcion  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @media screen and (max-width: 1000px){
     .suscripcion{
         width: 45%;
@@ -70,6 +45,9 @@
         margin-bottom: 40px;
         flex-grow: initial;
     }
+
+
+    
 }
 @media screen and (max-width: 700px){
     .suscripcion{
@@ -80,9 +58,10 @@
         margin-top: 40px;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
     .suscripcion{
         width: 85%;
         padding: 20px;
     }
 }
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

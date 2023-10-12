@@ -32,10 +32,9 @@ section{
         }
     }
 }
-h4{
+h3{
     margin-top: 15px;
     margin-bottom: 20px;
-    margin-left: 40px;
     font-size: 2rem;
     font-family: $fontgrueso;
 
@@ -79,4 +78,11 @@ h4{
         background: $azulito;
     }
     
+}
+.acordeon-soporte{
+    color:$negro;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0%;
+    font-family: $fontgrueso;
 }
